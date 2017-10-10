@@ -1,0 +1,42 @@
+.cover{
+	position: fixed;
+	top:45px;
+	bottom: 0;
+	left:0;
+	right: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 3;
+	display: block;
+}
+.leftmenu{
+	position: fixed; 
+	top:45px;
+	bottom:0px; 
+	left:0px;
+	right:30%; 
+	transform: translateX(-100%);
+	background: #282828;
+	color:#fff;
+	z-index: 3;
+	border-top: 1px solid #222;
+    box-shadow: 0 1px 1px #363636 inset;
+}
+.leftmenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.leftmenu ul li a {
+    display: flex;
+    width: 100%;
+    padding: 15px 16px;
+    border-bottom: 1px dotted #333;
+}
+.leftmenu ul li a span:first-child{
+	flex: 8;
+	color: gainsboro;
+}
+.leftmenu ul li a span:last-child{
+	flex: 1;
+	text-align: right;
+}

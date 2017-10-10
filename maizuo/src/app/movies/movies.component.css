@@ -1,0 +1,27 @@
+.movies{
+	padding: 0 10px;
+	background-color: #f9f9f9;
+	padding-top: 45px;
+}
+.film-list-nav {
+    height: 46px;
+    margin: 0 auto;
+    border-bottom: solid #fe6e00 1px;
+    display: flex;
+}
+.film-list-nav a{
+	flex: 1;
+	display: block;
+	height: 46px;
+	text-decoration: none;
+	color: #6a6a6a;
+}
+.film-list-nav a div{
+	line-height: 42px;
+	text-align: center;
+	font-size: 16px;
+}
+.film-list-nav .choosing {
+    color: #fe6e00;
+    border-bottom: solid;
+}

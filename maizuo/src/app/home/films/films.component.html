@@ -1,0 +1,40 @@
+<div class="list">
+	<div class="content" *ngFor="let contents of filmsList">
+		<img [src]="contents.cover.origin" alt="" />
+		<div class="dital">
+			<div class="left col-xs-10">
+				<div class="name">{{contents.name}}</div>
+				<div class="text">
+					<span>{{contents.cinemaCount}}</span>
+					<span>家影院上映</span>
+					<span>{{contents.watchCount}}</span>
+					<span>人购票</span>
+				</div>
+			</div>
+			<div class="right col-xs-2">
+				<span>{{contents.grade}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="more">
+		<span>更多热映电影</span>
+	</div>
+	<div class="soons">
+		<span>即将上映</span>
+	</div>
+
+	<div class="content" *ngFor="let soon of playsoon">
+		<img [src]="soon.cover.origin" alt="" />
+		<div class="ditals">
+			<div class="left col-xs-7">
+				<span class="name">{{soon.name}}</span>
+			</div>
+			<div class="right col-xs-5">
+				<span>{{soon.premiereAt|times}}上映</span>
+			</div>
+		</div>
+	</div>
+	<div class="more">
+		<span>更多即将上映电影</span>
+	</div>
+</div>

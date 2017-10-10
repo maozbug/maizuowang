@@ -1,0 +1,18 @@
+<div class="film-list">
+	<ul class="lists">
+		<li *ngFor="let item of playnow">
+			<img [src]="item.poster.origin" alt="" />
+			<div class="filmdel">
+				<div>
+					<div class="name">{{item.name}}</div>
+					<div class="grade">{{item.grade}}<img src="../../../assets/img/right.png" alt="" /></div>
+				</div>
+				<div class="intro">{{item.intro}}</div>
+				<div class="count">
+					<span><i>{{item.cinemaCount}}</i>家影院上映</span>
+					<span><i>{{item.watchCount}}</i>人购票</span>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
