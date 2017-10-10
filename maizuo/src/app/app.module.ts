@@ -1,9 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-//import { CommonsModule } from './commons/commons.module';
+import { MyprofileModule } from './myprofile/myprofile.module';
 import { HomeModule } from './home/home.module';
 import { HeaderComponent } from './commons/header/header.component';
 import { LeftComponent } from './commons/left/left.component';
+import { FormsModule } from '@angular/forms';
+
+
 
 import { ListsService } from './home/lists.service';
 import { ShowleftService } from './showleft.service';
@@ -12,17 +15,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {RouterModule} from "@angular/router";
 import {appRoutes} from './app.routes';
+import { LoginComponent } from './commons/login/login.component';
+import { RegisetComponent } from './commons/regiset/regiset.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
 		HeaderComponent,
-		LeftComponent
+		LeftComponent,
+		LoginComponent,
+		RegisetComponent
   ],
   imports: [
     BrowserModule,
-//  CommonsModule,
+    FormsModule,
+    MyprofileModule,
     HomeModule,
     BrowserAnimationsModule,
     RouterModule,

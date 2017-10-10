@@ -1,0 +1,29 @@
+.register{
+	position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 45px 6%;
+}
+.register div{
+	margin: 40px 0;
+}
+.register input{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #6A6A6A;
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+.register .submit{
+	width: 50%;
+    background-color: #fe8233;
+    color: #fff;
+    border: none;
+    border-radius: 36px;
+    margin-top: 20px;
+    padding: 8px 12px;
+    font-size: 15px;
+    outline: none;
+}

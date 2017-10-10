@@ -8,8 +8,8 @@
 	padding: 20px 0;
 	border-bottom:1px dashed gainsboro;
 }
-.film-list .lists li img{
-	width: 20%;
+.film-list .lists li img.image{
+	width: 71px;
 	height: 100%;
 }
 .film-list .lists li .filmdel{
@@ -53,7 +53,4 @@
 
 .film-list .lists li .filmdel div.count span{
 	flex: 1;
-}/*
-.film-list .lists li .filmdel div.count span i{
-	color: #8aa2bf;
-}*/
+}
