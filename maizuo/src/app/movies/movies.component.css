@@ -16,12 +16,16 @@
 	text-decoration: none;
 	color: #6a6a6a;
 }
+.film-list-nav a.active{
+	color:#fe6e00 ;
+	border-bottom: solid;
+}
 .film-list-nav a div{
 	line-height: 42px;
 	text-align: center;
 	font-size: 16px;
 }
-.film-list-nav .choosing {
+/*.film-list-nav .choosing {
     color: #fe6e00;
     border-bottom: solid;
-}
+}*/

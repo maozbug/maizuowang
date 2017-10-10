@@ -1,13 +1,13 @@
 import { MoviesComponent } from './movies.component';
 import {PlaynowComponent} from './playnow/playnow.component';
 import {PlaysoonComponent} from './playsoon/playsoon.component';
-export const base5Routes = [
+export const moviesRoutes = [
 	{
 		path: '',
 		component: MoviesComponent,
 		children: [
 			{ 
-				path: 'movies',
+				path: '',
 				redirectTo: 'playnow',
 				pathMatch: 'full' 
 			},

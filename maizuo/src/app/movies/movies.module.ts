@@ -9,11 +9,11 @@ import { DatetimePipe } from '../datetime.pipe';
 import { DateweekPipe } from '../dateweek.pipe';
 
 import { RouterModule } from '@angular/router';
-import {base5Routes} from './movies.routes';
+import {moviesRoutes} from './movies.routes';
 
 @NgModule({
   imports: [
-    CommonModule,RouterModule.forChild(base5Routes)
+    CommonModule,RouterModule.forChild(moviesRoutes)
   ],
   declarations: [MoviesComponent, PlaynowComponent, PlaysoonComponent,DatetimePipe,DateweekPipe],
   exports:[MoviesComponent],

@@ -1,6 +1,7 @@
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+//import { MoviesModule } from './movies/movies.module';
 
 export const appRoutes=[
 	{

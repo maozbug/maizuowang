@@ -10,7 +10,9 @@ import {appRoutes} from '../app.routes';
 
 @NgModule({
   imports: [
-    CommonModule,RouterModule, RouterModule.forRoot(appRoutes)
+    CommonModule,
+    RouterModule, 
+    RouterModule.forRoot(appRoutes)
   ],
   declarations: [HeaderComponent, LeftComponent],
   providers: [ShowleftService],
