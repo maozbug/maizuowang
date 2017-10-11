@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 export class ShowleftService {
 	menutype:any=false
   	constructor() { }
-	 changetype(){
+	changetype(){
   	  this.menutype=!this.menutype;
     }
     gettype(){

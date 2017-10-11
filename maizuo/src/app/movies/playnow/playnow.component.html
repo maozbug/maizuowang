@@ -1,7 +1,9 @@
 <div class="film-list">
 	<ul class="lists">
 		<li *ngFor="let item of playnow">
-			<img [src]="item.poster.origin" alt="" />
+			<div class="img">
+				<img [src]="item.poster.origin" alt="" />				
+			</div>
 			<div class="filmdel">
 				<div>
 					<div class="name">{{item.name}}</div>

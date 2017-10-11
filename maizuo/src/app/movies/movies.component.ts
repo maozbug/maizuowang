@@ -21,7 +21,6 @@ export class MoviesComponent implements OnInit {
   	var that=this
   	window.onscroll=function(){
   		var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
-  		console.log(scrolltop)
 			if(scrolltop>=600){
 				that.gotop='go'
 			}else{

@@ -4,7 +4,7 @@ import { MyprofileComponent } from './myprofile.component';
 
 import {RouterModule} from "@angular/router";
 import {myprofileRoutes} from './myprofile.routes';
-import {GuardService} from '../guard.service';
+//import {GuardService} from '../guard.service';
 @NgModule({
   imports: [
     CommonModule,
@@ -12,6 +12,6 @@ import {GuardService} from '../guard.service';
     RouterModule.forChild(myprofileRoutes)
   ],
   declarations: [MyprofileComponent],
-	providers:[GuardService]
+//	providers:[GuardService]
 })
 export class MyprofileModule { }

@@ -7,21 +7,15 @@ import { CanActivate, Router, ActivatedRouteSnapshot, RouterStateSnapshot} from 
 export class GuardService implements  CanActivate{
 	private username:string;
 	private password:string;
+	logintype:any=false
   constructor(private router:Router) { }
   //定义守卫的内容
   canActivate():boolean{
   	console.log('路由守卫到这里');
-		this.username = sessionStorage.getItem('username');
-		this.password = sessionStorage.getItem('password');
-		if(this.username == '15180456682'){
-			return true;
-		}else{
-			alert('登录失败,请先做登录处理');
-			this.router.navigateByUrl('login');
-			return false;
-			
-		}
-//	return true;
+	return this.logintype;
   }
+  	changetype(){
+  	  this.logintype=!this.logintype;
+   	}
 
 }

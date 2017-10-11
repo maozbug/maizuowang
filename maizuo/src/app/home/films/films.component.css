@@ -44,20 +44,23 @@
 	line-height: 30px;
 	border-radius: 10px;
 }
+.line{
+	height: 1px;
+	background: gainsboro;
+	margin-top: 10px;
+}
 .soons{
 	position: relative;
 	height:30px;
 	margin-top: 10px;
-	border-top: 1px solid darkgrey;
+	text-align: center;
+	top:-20px
 }
 .soons span{
 	display: inline-block;
 	padding: 0 5px;
 	background-color: #D9D9D9;
 	border-radius: 3px;
-	position:absolute;
-	top: -10px;
-	left:39% ;
 }
 .ditals{
 	height:25px;

@@ -4,7 +4,7 @@ import {MyprofileComponent} from './myprofile.component';
 
 export const myprofileRoutes = [
 	{
-		path: '',
+		path: 'myprofile',
 		component: MyprofileComponent,
 		canActivate:[GuardService],
 		children: [
