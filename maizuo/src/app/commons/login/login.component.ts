@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 //import {RouterModule, Router} from '@angular/router';
 //import{ActivatedRoute,Params} from  '@angular/router';
 import {GuardService} from '../../guard.service';
-
+//import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
